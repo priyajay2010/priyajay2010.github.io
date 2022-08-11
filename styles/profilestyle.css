@@ -1,0 +1,429 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-seriff;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: whitesmoke;
+	padding: 0;
+	margin: 0;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+}
+
+ nav{
+	display: flex;
+	
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	background-color: turquoise;
+
+}
+nav ul{
+	display: flex;
+
+	list-style-type: none;
+
+}
+nav li{
+	padding: 30px;
+
+}
+nav ul li a{
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+nav ul li a:hover
+{
+	color: red;
+	transition: 1s;*/
+}
+.content{
+	top: 75;
+	left: 20;
+	position: absolute;
+	transform: translate(50%,50%);
+}
+.contentstyle{
+	
+	top: 175;
+	left: 20;
+	position: absolute;
+	border: 1px yellow;
+	height: 70%;
+	width: 30%;
+	/*border-width:1px;
+border-style:solid;
+border-color:whitesmoke;
+*/
+}	
+.myinfo{
+	top :275;
+	left: 520;
+	position: absolute;
+	height: 55%;
+	width: 55%;
+	/*border-width:1px;
+border-style:solid;
+border-color:whitesmoke;*/
+
+
+}
+
+.myinfo h1{
+	/*border: 1px solid yellowgreen;*/
+}
+.myinfo .webdeveloper {
+	color: turquoise;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 2;
+}
+.myinfo p{
+	color: whitesmoke;
+	font-size: 20px;
+}
+.imgstyle{
+	width: 450px;
+	height: 525px;
+align-items: center;
+}
+
+.btn{
+	border-radius: 0%;
+	color: turquoise;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 5px;
+	background-color: black;
+	border-color: turquoise;
+}
+/*ABOUT ME */
+.about_me{
+	width: 100%;
+	height: 100%;
+	border-color: red;
+	border-width: 1px;
+	padding-top: 600px;
+	/*border-width: 1px; 
+	border-color: yellow; 
+	border-style: solid;*/
+	 top: 50em; 
+	 position: absolute;
+	 background-color: white;
+   display: flex;
+}
+.about_me img{
+	height: 400px;
+	width: 450px;
+	top: 5em;
+	left:3em;
+	position: absolute;
+	display: inline-flex;
+
+}
+.about_content{
+	color: black;
+	
+	
+	top: 15%;
+	left: 35em;
+	
+	position: absolute;
+	width: 50%;
+	height: 70%;
+	padding-top: 85px;
+	text-align: justify-all;
+}
+.me{
+	color: turquoise;
+	font-size: 28px;
+}
+.main{
+	display: flex;
+	margin: ;
+	width: 100%;
+	height: 100%;
+	
+	position: absolute;
+	
+	top: 0em;
+
+	
+
+}
+.div_image{
+	display: flex;
+	margin: ;
+	width: 35%;
+	height: 70%;
+	position: absolute;
+	
+	top: 10%;
+}
+
+.ltr_about_me {
+	color: black;
+	font-size: 33px;
+}
+.ltr_hello {
+	color: black;
+	font-size: 25px;
+}
+.abt_me_content{
+	color: black;
+	font-size: 16px;
+}
+.btn_talk{
+
+}
+.btn_talk:hover
+{
+	background-color: transparent;
+	border: 2px solid red;
+	cursor: pointer;
+
+}
+.top_page{
+	width: 100%;
+	height: 15%;
+	border-color: green;
+	/*border-width: 5px;
+	border-style: solid;*/
+	background-color: turquoise;
+}
+.bottom_page{
+	width: 100%;
+	height: 100%;
+	border-color: green;
+	/*border-width: 5px;
+	border-style: solid;*/
+	background-color: turquoise;
+	/*top: 85%;*/
+
+}
+/*END ABOUT ME */
+
+/* SKILLS STARTS */
+/*ABOUT ME */
+.skills{
+	width: 100%;
+	height: 100%;
+	
+	/*padding-top: 1600px;*/
+	/*border-width: 1px; 
+	border-color: yellow; 
+	border-style: solid;*/
+	 top: 95em; 
+	 position: absolute;
+	 background-color: black;
+   display: flex;
+}
+.skills_top_page{
+	width: 100%;
+	height: 15%;
+	background-color: turquoise;
+}
+.skills_title{
+	width: 100%;
+	top: 150px;
+	height:15% ;
+	position: absolute;
+	/*border-color: whitesmoke;
+	border-width: 1px;
+	border-style: solid;*/
+}
+.skills_title h2
+{
+	color: turquoise;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 14px;
+}
+.skills_title h5
+{
+	color: whitesmoke;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+
+}
+.box{
+	width: 100%;
+	height: :100%;
+	align-items: center;
+	/*border-color: whitesmoke;
+	border-width: 2px;
+	border-style: solid;*/
+	top: 275px;
+	position: absolute;
+	display: flex;
+	margin-left: 0px;
+	justify-content: center;
+	column-gap: 30px;
+
+
+
+}
+.card{
+	width: 15%;
+	height: 100%;
+    border-color: turquoise;
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    border-radius: 20px;
+
+    
+
+}
+.card:hover{}
+.card h5{
+	color: black;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.card p{
+	background-color: white;
+	color: black;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	/*border-radius: 20px;*/
+}
+
+
+.skill_list{
+	background-color: white;
+	color: black;
+	text-align: justify;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+.card a{
+	justify-items: center;
+	color: blue;
+	margin-left: 15px;
+}
+
+/*SKILLS ENDS*/
+
+/*CONTACT STARTS*/
+.contact_me_section{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	justify-content: center;
+	top: 145em;
+	position: absolute;
+	/*display: flex;*/
+}
+.contact_main{
+	width: 100%;
+	height: 100%;
+	/*border-color: white;
+	border-width: 2px;
+	border-style: solid;*/
+	display: flex;
+	/*margin-top: 10px;*/
+	padding-top: 35px;
+
+
+}
+.contact_info{
+	width: 70%;
+	height: 80%;
+	/*border-color: pink;
+	border-width: 2px;
+	border-style: solid;*/
+	justify-content: center;
+	margin: 12px 12px 12px 12px;
+}
+.contact_me{
+	width: 30%;
+	height: 80%;
+	/*border-color: green;
+	border-width: 2px;
+	border-style: solid;*/
+	margin: 12px 12px 12px 12px;
+}
+.contact_table{
+	border: 1;
+	border-color: turquoise;
+	border-style: double;
+	width: 350px;
+}
+.contact_me h2{
+	color: turquoise;
+	padding: 25px;
+}
+.contact_me tr,td{
+
+	border-color: pink;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 17px;
+	display: flex;
+	/*cellspacing: 5px;*/
+}
+.contact_frm{
+	margin: 5px 25px;
+	border-width: 3px;
+	border-color: turquoise;
+	border-style: double;
+	width: 800px;
+	height: 500px;
+	justify-content: center;
+	vertical-align: middle;
+	font-size: 15px;
+	display: table;
+	padding: 15px;
+	font-weight: bold;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid turquoise;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /*resize: vertical;*/
+}
+
+input[type=submit] {
+  background-color: turquoise;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: darkturquoise;
+}
+
+
+
+
